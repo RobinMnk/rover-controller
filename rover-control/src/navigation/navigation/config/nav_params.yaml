@@ -1,0 +1,19 @@
+navigator:
+  ros__parameters:
+    min_distance: 0.8
+    speed_factor: 1.0
+    turn_factor: 3.4
+    steering_limit: 0.65 # at most pi / 2
+
+localization:
+  ros__parameters:
+    use_regression: True
+    regression_history: 3
+
+    use_vehicle_simulation: False
+
+    use_kalman_filter: False
+    kalman_P: 1000.
+    kalman_R: .0001
+    kalman_Q_dt: .01
+    kalman_Q_var: .23

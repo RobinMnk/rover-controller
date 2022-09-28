@@ -1,0 +1,9 @@
+Waypoint[] targets
+string mission_id
+---
+Waypoint[] final_positions
+int32 total_time
+---
+int32 last_completed
+int32 time_for_navigation
+WaypointData last_waypoint_data
